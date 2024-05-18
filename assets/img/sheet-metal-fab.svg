@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.0"
+   width="50pt"
+   height="50pt"
+   viewBox="0 0 50 50"
+   preserveAspectRatio="xMidYMid"
+   id="svg4"
+   sodipodi:docname="sheet-metal-fab.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="pt"
+     inkscape:zoom="5.0049902"
+     inkscape:cx="100.2999"
+     inkscape:cy="43.057028"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <g
+     transform="matrix(0.01039754,0,0,-0.01039754,-1.5717741,53.23538)"
+     fill="#000000"
+     stroke="none"
+     id="g4">
+    <path
+       d="m 939,5099 c -20,-20 -21,-29 -17,-227 3,-200 4,-209 30,-264 14,-31 45,-77 68,-102 42,-45 146,-106 182,-106 17,0 18,-13 18,-204 0,-191 1,-205 21,-230 l 20,-26 h 1294 c 1217,0 1294,1 1314,18 20,16 21,27 23,226 l 3,209 42,12 c 104,31 196,114 234,214 19,48 23,81 27,238 4,193 2,222 -24,247 -14,14 -175,16 -1615,16 H 960 Z"
+       id="path1" />
+    <path
+       d="m 2100,3323 1,-518 175,-230 c 97,-126 181,-233 188,-237 6,-4 52,-8 103,-8 h 92 l 181,236 180,236 v 519 519 h -460 -460 z"
+       id="path2" />
+    <path
+       d="m 976,3228 c -38,-21 -301,-230 -309,-245 -5,-8 -7,-25 -5,-36 4,-20 1452,-1827 1486,-1855 12,-9 110,-12 411,-12 218,0 401,4 407,8 14,9 1484,1832 1491,1850 14,32 -13,62 -149,168 -162,126 -177,135 -205,128 -11,-3 -306,-362 -674,-820 l -653,-814 h -216 -216 l -639,797 c -352,438 -647,804 -655,814 -20,23 -51,31 -74,17 z"
+       id="path3" />
+    <path
+       d="M 171,1723 C 150,1697 150,1696 152,863 155,50 156,28 174,14 191,2 532,0 2560,0 c 2280,0 2368,1 2383,18 16,17 17,91 17,860 v 841 l -22,15 c -20,14 -86,16 -518,16 -410,0 -499,-2 -516,-14 -11,-8 -177,-248 -369,-535 L 3185,681 h -625 l -625,-1 -354,526 c -195,289 -363,529 -372,535 -10,5 -226,9 -518,9 H 191 Z"
+       id="path4" />
+  </g>
+</svg>
