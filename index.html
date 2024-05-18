@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HAWK</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/icon_logo_hawk-fav.png">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <!-- Load fonts style after rendering the layout styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+
+
+
+    <!-- the below commented one is old code for common header and footer in all pages -->
+    <!-- <script> 
+        $(function(){
+        $("#header").load("header.html"); 
+        $("#footer").load("footer.html"); 
+        });
+    </script>  -->
+
+    <!-- jQuery for collapsibles  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Header -->
+        <header id="app-header" class="sticky-top back-drop"></header>
+    <!-- Close Header -->
+
+    <!-- Modal
+    <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="text-align: center;">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="w-100 pt-1 mb-5 text-right">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="" method="get" class="modal-content modal-body border-0 p-0">
+                <div class="input-group mb-2">
+                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
+                    <button type="submit" class="input-group-text bg-success text-light">
+                        <i class="fa fa-fw fa-search text-white"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div> -->
+
+
+
+    <!-- Start Banner Hero -->
+    <div id="template-mo-zay-hero-carousel" class="carousel slide" data-bs-ride="carousel" >
+        <ol class="carousel-indicators">
+            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="1"></li>
+            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner"  id="content-center" style="padding: 40px 50px 10px 50px">
+            <div class="carousel-item active" style="padding: 40px 0px 0px 0px">
+                <div>
+                    <div class="row px-5 py-0 " style="display: flex; gap: 20px !important;">
+                        <div class="mx-auto col-md-6 col-lg-4 order-lg-last div-center">
+                            <img class="img-fluid" src="assets/img/icon_logo_hawk-re.svg" alt="hero image">
+                        </div>
+                        <div class="col-lg-7 mb-0 d-flex align-items-center">
+                            <div class="text-align-left align-self-center" style="margin: 20% 0; text-align: left">
+                                <h1 class="h1 text-success"><b>HAWK</b></h1>
+                                <h3 class="h2">Our Engineering - Your Solution</h3>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="carousel-item">
+                <div >
+                    <div class="row px-5 py-0" style="display: flex; gap: 20px !important;">
+                        <div class="mx-auto col-md-6 col-lg-4 order-lg-last div-center" >
+                            <img class="img-fluid" src="./assets/img/vision2.svg" alt=""/>
+                        </div>
+                        <div class="col-lg-7 mb-0 d-flex align-items-center">
+                            <div class="text-align-left" style="margin: 20% 0; text-align: left">
+                                <h1 class="h1">Vision</h1>
+                                <p>
+                                    Providing professional services on time and within budget, prioritizing integrity and trust through follow-up assessments, 
+                                    cultivating complete engineering capabilities, and fostering transparent communication channels with clients.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div>
+                    <div class="row px-5 py-0" style="display: flex; gap: 20px !important;">
+                        <div class="mx-auto col-md-6 col-lg-4 order-lg-last div-center" >
+                            <img class="img-fluid" src="./assets/img/mission2.svg" alt="" />
+                        </div>
+                        <div class="col-lg-7 mb-0 d-flex align-items-center">
+                            <div class="text-align-left" style="margin: 20% 0; text-align: left">
+                                <h1 class="h1">Mission</h1>
+                                <p>
+                                    Collaborate closely with clients to understand industry needs, refining processes for competitive pricing and quality assurance. 
+                                    Expand workshop capabilities to cater to diverse client demands, while prioritizing employee satisfaction to bolster 
+                                    service delivery and brand image.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="prev">
+            <i class="fas fa-chevron-left"></i>
+        </a>
+        <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="next">
+            <i class="fas fa-chevron-right"></i>
+        </a>
+    </div>
+    <!-- End Banner Hero -->
+
+
+    <!-- Start Categories of The Month -->
+    <section class="container py-5" style="display: flex; flex-direction: column; justify-content: center;">
+        <div class="row text-center pt-3" style="text-align: center;">
+            <div class="col-lg-6 m-auto">
+                <h1 class="h1">Product Portfolio</h1>
+                <p>
+                    Specializing in high-quality, precision-engineered components through advanced technology and meticulous craftsmanship.
+                </p>
+            </div>
+        </div>
+        <div class="row" >
+            <div class="col-12 col-md-4 p-5 mt-3" id="content-center">
+                <a href="#"><img src="./assets/img/product_Sheet metal.jpg" class="rounded-circle img-fluid border product-shadow"></a>
+                <h5 class="text-center mt-3 mb-3">Sheet metal stamping and fabrication</h5>
+            </div>
+            <div class="col-12 col-md-4 p-5 mt-3" id="content-center">
+                <a href="#"><img src="./assets/img/product_Tooling spares.jpg" class="rounded-circle img-fluid border product-shadow"></a>
+                <h2 class="h5 text-center mt-3 mb-3">Tooling spares</h2>
+            </div>
+            <div class="col-12 col-md-4 p-5 mt-3" id="content-center">
+                <a href="#"><img src="./assets/img/product_Press tools.jpg" class="rounded-circle img-fluid border product-shadow"></a>
+                <h2 class="h5 text-center mt-3 mb-3">Press tools</h2>
+            </div>
+            <div class="col-12 col-md-4 p-5 mt-3" id="content-center">
+                <a href="#"><img src="./assets/img/product_Jigs & fixtures.jpeg" class="rounded-circle img-fluid border product-shadow"></a>
+                <h2 class="h5 text-center mt-3 mb-3">Jigs & fixtures</h2>
+            </div>
+            <div class="col-12 col-md-4 p-5 mt-3" id="content-center">
+                <a href="#"><img src="./assets/img/product_Machining and welding components.jpg" class="rounded-circle img-fluid border product-shadow"></a>
+                <h2 class="h5 text-center mt-3 mb-3">Machining and welding components</h2>
+            </div>
+        </div>
+    </section>
+    <!-- End Categories of The Month -->
+
+
+    <!-- Start Brands -->
+    <section class="bg-light py-5"  id="content-center">
+        <div class="container my-4">
+            <div class="row text-center py-3">
+                <div class="col-lg-6 m-auto">
+                    <h1 class="h1">Our Customers</h1>
+                    <p>
+                        We serve a diverse clientele with tailored solutions, 
+                        fostering trust and satisfaction through quality service.
+                    </p>
+                </div>
+                <div class="col-lg-9 m-auto tempaltemo-carousel">
+                    <div class="row d-flex flex-row">
+                        <!--Controls-->
+                        <div class="col-1 align-self-center">
+                            <a class="h1" href="#templatemo-slide-brand" role="button" data-bs-slide="prev">
+                                <i class="text-success fas fa-chevron-left"></i>
+                            </a>
+                        </div>
+                        <!--End Controls-->
+
+                        <!--Carousel Wrapper-->
+                        <div class="col">
+                            <div class="carousel slide carousel-multi-item pt-4 pt-md-0" id="templatemo-slide-brand" data-bs-ride="carousel">
+                                <!--Slides-->
+                                <div class="carousel-inner product-links-wap" role="listbox">
+
+                                    <!--First slide-->
+                                    <div class="carousel-item active">
+                                        <div class="row">
+                                            <div class="col-3 p-md-5">
+                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/banner_STER_INDIA.png" alt="Brand Logo"></a>
+                                            </div>
+                                            <div class="col-3 p-md-5">
+                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/banner_onegene_1.png" alt="Brand Logo"></a>
+                                            </div>
+                                            <div class="col-3 p-md-5">
+                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/banner_CEAT.png" alt="Brand Logo"></a>
+                                            </div>
+                                            <div class="col-3 p-md-5">
+                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/banner_EBMPAPST.png" alt="Brand Logo"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--End First slide-->
+
+                                    <!--Second slide-->
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-3 p-md-5">
+                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/banner_THERMAX.png" alt="Brand Logo"></a>
+                                            </div>
+                                            <div class="col-3 p-md-5">
+                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/banner_SAME.png" alt="Brand Logo"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--End Second slide-->
+
+                                </div>
+                                <!--End Slides-->
+                            </div>
+                        </div>
+                        <!--End Carousel Wrapper-->
+
+                        <!--Controls-->
+                        <div class="col-1 align-self-center">
+                            <a class="h1" href="#templatemo-slide-brand" role="button" data-bs-slide="next">
+                                <i class="text-success fas fa-chevron-right"></i>
+                            </a>
+                        </div>
+                        <!--End Controls-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Brands-->
+
+
+
+    <!-- footer -->
+    <footer id="app-footer"></footer>
+    <!-- Close footer -->
+
+    <!-- Start Script -->
+        <!-- script for header -->
+<script src="./assets/js/header.js"></script>
+<!-- script for footer -->
+<script src="./assets/js/footer.js"></script>
+
+    <script src="./assets/js/jquery-3.7.1.min.js"></script>
+    <!-- jquery upgrade----- above -->
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/templatemo.js"></script>
+<script src="assets/js/custom.js"></script>
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- End Script -->
+</body>
+
+</html>
