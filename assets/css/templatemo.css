@@ -1,0 +1,251 @@
+/*
+modification and design by arun & noor
+TemplateMo 559 Zay Shop
+
+https://templatemo.com/tm-559-zay-shop
+
+---------------------------------------------
+Table of contents
+------------------------------------------------
+1. Typography
+2. General
+3. Nav
+4. Hero Carousel
+5. Accordion
+6. Shop
+7. Product
+8. Carousel Hero
+9. Carousel Brand
+10. Services
+11. Contact map
+12. Footer
+13. Small devices (landscape phones, 576px and up)
+14. Medium devices (tablets, 768px and up)
+15. Large devices (desktops, 992px and up)
+16. Extra large devices (large desktops, 1200px and up)
+--------------------------------------------- */
+
+
+
+
+/* Typography */
+body, ul, li, p, a, label, input, div {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px !important;
+  font-weight: 300 !important;
+}
+.h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px !important;
+  font-weight: 200 !important;
+}
+.h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px !important;
+  font-weight: 300;
+}
+.h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px !important;
+}
+/* General */
+.logo { font-weight: 500 !important;}
+.text-warning {  color: #ede861 !important;}
+.text-muted { color: #6e6e73 !important;}
+.text-success { color: #1d1d1f !important;}
+.text-light { color: #e9eef5 !important;}
+.bg-dark { background-color: #1d1d1f !important;}
+.bg-light { background-color: #ebeef3 !important;}
+.bg-white{ background-color: white !important;}
+.bg-black { background-color: #171718 !important;}
+.bg-success { background-color: #6e6e73 !important;}
+.btn-success {
+  background-color: #6e6e73 !important;
+  border-color: #6e6e73 !important;
+}
+.pagination .page-link:hover {color: #1d1d1f;}
+.pagination .page-link:hover, .pagination .page-link.active {
+  background-color: #6e6e73;
+  color: #fff;
+}
+/* Nav */
+#templatemo_nav_top { min-height: 40px;
+width: 20px;
+}
+#templatemo_nav_top * { font-size: .9em !important;}
+#templatemo_main_nav{
+  padding-left: 20px;
+  margin: 1px 0 10px;
+}
+#templatemo_main_nav a { color: #1d1d1f;
+border-radius: 2px;}
+#templatemo_main_nav a:hover { color: #e9eef5;
+background-color: #1d1d1f;}
+#templatemo_main_nav .navbar .nav-icon { margin-right: 20px;}
+
+/* Hero Carousel */
+#template-mo-zay-hero-carousel { background: #f4f6f8 !important;}
+/* Accordion */
+.templatemo-accordion a { color: #1d1d1f;}
+.templatemo-accordion a:hover { color: #6e6e73;}
+/* Shop */
+.shop-top-menu a:hover { color: #6e6e73 !important;}
+/* Product */
+.product-wap { box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);}
+.product-wap .product-color-dot.color-dot-red { background:#f71515;}
+.product-wap .product-color-dot.color-dot-blue { background:#6db4fe;}
+.product-wap .product-color-dot.color-dot-black { background:#000000;}
+.product-wap .product-color-dot.color-dot-light { background:#e0e0e0;}
+.product-wap .product-color-dot.color-dot-green { background:#6e6e73;}
+.card.product-wap .card .product-overlay {
+  background: rgba(0,0,0,.2);
+  visibility: hidden;
+  opacity: 0;
+  transition: .3s;
+}
+.card.product-wap:hover .card .product-overlay {
+  visibility: visible;
+  opacity: 1;
+}
+.card.product-wap a { color: #1d1d1f;}
+#carousel-related-product .slick-slide:focus { outline: none !important;}
+#carousel-related-product .slick-dots li button:before {
+  font-size: 15px;
+  margin-top: 20px;
+}
+/* Brand */
+.brand-img {
+  filter: grayscale(100%);
+  opacity: 0.5;
+  transition: .5s;
+}
+.brand-img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+/* Carousel Hero */
+#template-mo-zay-hero-carousel .carousel-indicators li {
+  margin-top: -50px;
+  background-color: #1d1d1f;
+}
+#template-mo-zay-hero-carousel .carousel-control-next i,
+#template-mo-zay-hero-carousel .carousel-control-prev i {
+  color: #1d1d1f !important;
+  font-size: 2.8em !important;
+}
+/* Carousel Brand */
+.tempaltemo-carousel .h1 {
+  font-size: .5em !important;
+  color: #1d1d1f !important;
+}
+/* Services */
+.services-icon-wap {transition: .3s;}
+.services-icon-wap:hover, .services-icon-wap:hover i {color: #e9eef5;}
+.services-icon-wap:hover i img{ filter: invert(97%) sepia(5%) saturate(846%) hue-rotate(181deg) brightness(100%) contrast(93%);}
+.services-icon-wap:hover {background: #1d1d1f;}
+/* Contact map */
+.leaflet-control a, .leaflet-control { font-size: 10px !important;}
+.form-control { border: 1px solid #e8e8e8;}
+/* Footer */
+#tempaltemo_footer a { color: #e9eef5;}
+#tempaltemo_footer a:hover { color: #6e6e73;}
+#tempaltemo_footer ul.footer-link-list li { margin-top: 10px;}
+#tempaltemo_footer ul.footer-icons li {
+  width: 2.6em;
+  height: 2.6em;
+  line-height: 2.6em;
+}
+#tempaltemo_footer ul.footer-icons li:hover {
+  background-color: #e9eef5;
+  transition: .5s;
+}
+#tempaltemo_footer ul.footer-icons li:hover i {
+  color: #212934;
+  transition: .5s;
+}
+#tempaltemo_footer .border-light { border-color: #6e6e73 !important;}
+/*
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+*/
+/* Small devices (landscape phones, 576px and up)*/
+.product-wap .h3, .product-wap li, .product-wap i, .product-wap p {
+  font-size: 12px !important;
+}
+.product-wap .product-color-dot {
+  width: 6px;
+  height: 6px;
+}
+
+@media (min-width: 384px){
+  .tempaltemo-carousel .h1 { font-size: 1em !important;}
+  #template-mo-zay-hero-carousel .carousel-item {min-height: 800px !important;}
+
+}
+
+@media (min-width: 360px){
+  .tempaltemo-carousel .h1 { font-size: 1em !important;}
+  #template-mo-zay-hero-carousel .carousel-item {min-height: 800px !important;}
+
+}
+
+@media (min-width: 412px){
+  .tempaltemo-carousel .h1 { font-size: 1em !important;}
+  #template-mo-zay-hero-carousel .carousel-item {min-height: 800px !important;}
+
+}
+
+@media (min-width: 414px){
+  .tempaltemo-carousel .h1 { font-size: 1em !important;}
+  #template-mo-zay-hero-carousel .carousel-item {min-height: 800px !important;}
+
+}
+
+@media (min-width: 390px){
+  .tempaltemo-carousel .h1 { font-size: 1em !important;}
+  #template-mo-zay-hero-carousel .carousel-item {min-height: 800px !important;}
+
+}
+
+@media (min-width: 430px){
+  .tempaltemo-carousel .h1 { font-size: 1em !important;}
+  #template-mo-zay-hero-carousel .carousel-item {min-height: 800px !important;}
+
+}
+
+@media (min-width: 576px) {
+  .tempaltemo-carousel .h1 { font-size: 1em !important;}
+  #template-mo-zay-hero-carousel .carousel-item {min-height: 1080px !important;}
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  #templatemo_main_nav .navbar-nav {max-width: 450px;}
+  #template-mo-zay-hero-carousel .carousel-item {min-height: 850px !important;}
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  #templatemo_main_nav .navbar-nav {max-width: 700px;}
+  #template-mo-zay-hero-carousel .carousel-item {min-height: 480px !important;}
+  .product-wap .h3, .product-wap li, .product-wap i, .product-wap p {font-size: 18px !important;}
+  .product-wap .product-color-dot {
+    width: 12px;
+    height: 12px;
+  }
+  
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  #template-mo-zay-hero-carousel .carousel-item {min-height: 600px !important;}
+
+}
+
+/* 4k displays */
+@media (min-width: 2560px) {
+  #template-mo-zay-hero-carousel .carousel-item {min-height: 900px !important;}
+
+}
