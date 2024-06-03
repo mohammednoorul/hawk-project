@@ -77,7 +77,8 @@ let appFooter = `
                <div class="col-12">
                    <div class="text-left text-light" style="text-align: left; font-size: 15px !important;">
                        Copyright &copy; 2024 HAWK 
-                       | Designed by <a rel="sponsored" href="https://www.linkedin.com/in/arun-karthik-ab5272170/" target="_blank" style="text-decoration: none; font-size: 15px !important;">A</a> & <a rel="sponsored" href="https://www.linkedin.com/in/mohammed-noorullah-baig/" target="_blank" style="text-decoration: none; font-size: 15px !important;">N</a>
+                       | Crafted by <a rel="sponsored" href="https://www.linkedin.com/in/arun-karthik-ab5272170/" target="_blank" style="text-decoration: none; font-size: 15px !important;">A</a> & <a rel="sponsored" href="https://www.linkedin.com/in/mohammed-noorullah-baig/" target="_blank" style="text-decoration: none; font-size: 15px !important;">N </a>
+                       designers
                    </div>
                </div>
            </div>
